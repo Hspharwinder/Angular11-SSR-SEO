@@ -20,8 +20,11 @@ Note: ng add @nguniversal/express-engine --clientProject ssr-project(Your projec
   
 
 2.  Run This Application
+3.  
   (i) npm run build:ssr
+  
   (ii) npm run serve:ssr  or node dist/server
+  
 
 3.  Check This Application SEO Friendly - curl http://localhost:4000
 
