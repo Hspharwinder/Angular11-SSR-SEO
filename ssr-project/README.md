@@ -1,4 +1,4 @@
-# Step SSR Creation
+# STEP For SSR Creation
 
 1.  Add Angular Universal in Your Application - ng add @nguniversal/express-engine --clientProject ssr-project
 Note: ng add @nguniversal/express-engine --clientProject ssr-project(Your project name)
