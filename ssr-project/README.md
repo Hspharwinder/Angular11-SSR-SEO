@@ -29,6 +29,8 @@ Note: ng add @nguniversal/express-engine --clientProject ssr-project(Your projec
 3.  Check This Application SEO Friendly - curl http://localhost:4000
 
 
+# NOTE: Not important below point
+
    Change Port in SSR Angular Application ( server.ts )
   ---------------------------------------------------------------
 
