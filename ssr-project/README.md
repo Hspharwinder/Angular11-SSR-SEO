@@ -20,6 +20,7 @@ Note: ng add @nguniversal/express-engine --clientProject ssr-project(Your projec
   
 
 2.  Run This Application
+
   (i) npm run build:ssr
   
   (ii) npm run serve:ssr  or node dist/server
