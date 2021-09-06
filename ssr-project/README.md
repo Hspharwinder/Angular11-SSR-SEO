@@ -4,6 +4,7 @@
 Note: ng add @nguniversal/express-engine --clientProject ssr-project(Your project name)
     
     The command create following files.
+    
     src/
     main.server.ts             * bootstrapper for server app
     app/ ...                   application code
