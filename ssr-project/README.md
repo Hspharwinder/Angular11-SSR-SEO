@@ -2,6 +2,14 @@
 
 1.  Add Angular Universal in Your Application - ng add @nguniversal/express-engine --clientProject ssr-project
 Note: ng add @nguniversal/express-engine --clientProject ssr-project(Your project name)
+    The command create following files.
+    src/
+    main.server.ts             * bootstrapper for server app
+    app/ ...                   application code
+      app.server.module.ts     * server-side application module
+  server.ts                    * express web server
+  tsconfig.server.json         * TypeScript server configuration
+  webpack.server.config.js     * webpack server configuration
 
 2.  Run This Application
   (i) npm run build:ssr
