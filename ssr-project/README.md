@@ -7,11 +7,17 @@ Note: ng add @nguniversal/express-engine --clientProject ssr-project(Your projec
     
     src/
     main.server.ts             * bootstrapper for server app
+    
     app/ ...                   application code
+    
       app.server.module.ts     * server-side application module
+      
   server.ts                    * express web server
+  
   tsconfig.server.json         * TypeScript server configuration
+  
   webpack.server.config.js     * webpack server configuration
+  
 
 2.  Run This Application
   (i) npm run build:ssr
