@@ -19,7 +19,7 @@ import { GetTagComponent } from './get-tag/get-tag.component';
     GetTagComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
